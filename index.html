@@ -7,6 +7,17 @@
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+    #unity-canvas {
+      width: min(95vw, calc(85vh * 9 / 16)) !important;
+      height: min(85vh, calc(95vw * 16 / 9)) !important;
+    }
+  </style>
   <body>
     <div id="unity-container" class="unity-desktop">
       <canvas id="unity-canvas" width=540 height=960 tabindex="-1"></canvas>
